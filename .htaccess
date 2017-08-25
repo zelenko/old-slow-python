@@ -1,0 +1,20 @@
+##AddHandler python-program .py
+##PythonHandler mod_python.publisher
+
+#Options +ExecCGI
+#AddHandler cgi-script .py
+
+#AddHandler python-program .py
+#PythonHandler index
+
+#Options +ExecCGI
+#AddHandler cgi-script .py
+
+
+#AddHandler mod_python .py
+#PythonHandler mod_python.publisher
+#PythonDebug On
+
+#Options +ExecCGI
+#AddHandler python-program .py
+#PythonHandler mod_python.publisher
